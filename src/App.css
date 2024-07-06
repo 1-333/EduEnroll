@@ -1,0 +1,183 @@
+Global Styles
+
+  
+  /* Navbar Styles */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+  
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+  }
+  
+  .navbar a:hover {
+    color: #ccc;
+  }
+  
+  /* Login Page Styles */
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  /* Add Student Page Styles */
+  
+  .add-student-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .add-student-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-student-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-student-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-student-form button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  /* Home Page Styles */
+  
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .home-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    margin-bottom: 40px;
+  }
+  
+  .home-page button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .home-page button:hover {
+    background-color: #23527c;
+  }
+  
+  /* Hover Animation */
+  
+  .hover-animation {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hover-animation:hover {
+    background-color: #337ab7;
+  }
+  
+  /* Unique Fonts */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+  
+  /* Font Sizes */
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  }
