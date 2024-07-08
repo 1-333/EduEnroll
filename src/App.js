@@ -3,7 +3,6 @@ import {Route, Routes, Navigate } from 'react-router-dom';
 import Login from './components/Login';
 import Home from './components/Home';
 import AddStudents from './components/AddStudents';
-// import Profile from './components/Profile';
 import './App.css';
 import './index.css'
 
