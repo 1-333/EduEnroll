@@ -66,14 +66,6 @@ const App = () => {
             </PrivateRoute>
           }
         />
-        {/* <Route
-          path="/profile"
-          element={
-            <PrivateRoute>
-              <Profile />
-            </PrivateRoute>
-          }
-        /> */}
         <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
 
